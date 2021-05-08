@@ -1,0 +1,8 @@
+{
+    "pythonautovenv.autoInstallVenv": true,
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "python.venvFolders": [
+        "D:\\vscode\\Flaskvenv\\Lib",
+        "D:\\vscode\\Flaskvenv\\Scripts"
+    ],
+}
