@@ -1,0 +1,15 @@
+Running Python Scripts inside Python's Interpreter
+
+To run a script "hello.py" inside Python's Interpreter:
+
+# Python 3 and Python 2
+$ python3
+......
+>>> exec(open('/path/to/hello.py').read())
+
+# Python 2
+$ python2
+......
+>>> execfile('/path/to/hello.py')
+# OR
+>>> exec(open('/path/to/hello.py'))
